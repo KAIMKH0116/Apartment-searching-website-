@@ -5,12 +5,9 @@
     "selector": "",
     "area": "福岡・北九州",
     "note": "収益物件事業",
-    "changed": true,
-    "change": {
-      "type": "new",
-      "message": "初回登録",
-      "property_count": 26
-    },
-    "checked_at": "2026-06-16T08:16:58.500258"
+    "changed": false,
+    "change": null,
+    "drive_link": null,
+    "checked_at": "2026-06-16T08:28:09.711763"
   }
 ]
