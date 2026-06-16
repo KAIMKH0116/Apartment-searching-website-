@@ -1,2 +1,5 @@
 name,url,selector,area,note
-サンプル不動産,https://example-fudosan.co.jp/bukken/,div.property-list,福岡市,地場業者A
+グリード_収益物件,https://www.gred.co.jp/fudosan-invest/,，,福岡市,収益物件情報
+不動産SHOPナカジツ_福岡,https://www.nakajitsu.com/search/results?pref=40&type=11,,福岡市,収益物件一覧
+ふれんず_北九州オーナーチェンジ,https://www.f-takken.com/other/ownerchange-area,,北九州市,オーナーチェンジ物件
+デザイナーズラボ福岡,https://www.d-labo.co.jp/planning-consultation,,福岡・北九州,収益物件事業
