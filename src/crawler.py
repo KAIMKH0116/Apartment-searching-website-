@@ -118,11 +118,11 @@ def main():
 
                     # 物件概要テキスト保存
                     summary=f"サイト名: {name}\nURL: {url}\nエリア: {area}\n取得日時: {datetime.now().isoformat()}\n\n{soup.get_text(separator=chr(10),strip=True)[:5000]}"
-                    upload_text_to_drive(drive,folder_id,f"{today}_物件概要.txt",summary)
+#                    upload_text_to_drive(drive,folder_id,f"{today}_物件概要.txt",summary)
 
                     # リンク一覧保存
                     links_text="\n".join(f"{p['title']}\n{p['url']}" for p in props[:50])
-                    upload_text_to_drive(drive,folder_id,f"{today}_リンク一覧.txt",links_text)
+#                    upload_text_to_drive(drive,folder_id,f"{today}_リンク一覧.txt",links_text)
 
                     print(f"  [Drive] フォルダ作成: {drive_link}")
                 except Exception as e:
