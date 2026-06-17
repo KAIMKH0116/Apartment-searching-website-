@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
+from googleapiclient.http import MediaInMemoryUpload
 
 SNAPSHOT_FILE = Path("data/snapshots.json")
 RESULTS_FILE = Path("data/results.json")
@@ -71,6 +72,12 @@ def create_drive_folder(drive, name, parent_id):
     }
     f = drive.files().create(body=meta, fields="id,webViewLink").execute()
     return f["id"], f["webViewLink"]
+
+
+def upload_text_to_drive(drive, folder_id, filename, content):
+    media = MediaInMemoryUpload(content.encode("utf-8"), mimetype="text/plain")
+    meta = {"name": filename, "parents": [folder_id]}
+    drive.files().create(body=meta, media_body=media, fields="id").execute()
 
 
 def load_json(path):
@@ -190,8 +197,26 @@ def main():
             changed += 1
             if drive and DRIVE_FOLDER_ID:
                 try:
-                    _, drive_link = create_drive_folder(drive, name, DRIVE_FOLDER_ID)
+                    today = datetime.now().strftime("%Y%m%d")
+                    folder_id, drive_link = create_drive_folder(drive, name, DRIVE_FOLDER_ID)
                     print(f"  [Drive] フォルダ作成: {drive_link}")
+
+                    # 物件概要テキスト保存
+                    summary = (
+                        f"サイト名: {name}\n"
+                        f"URL: {url}\n"
+                        f"エリア: {area}\n"
+                        f"取得日時: {datetime.now().isoformat()}\n\n"
+                        f"{soup.get_text(separator=chr(10), strip=True)[:5000]}"
+                    )
+                    upload_text_to_drive(drive, folder_id, f"{today}_物件概要.txt", summary)
+                    print("  [Drive] 物件概要.txt 保存完了")
+
+                    # リンク一覧保存
+                    links_text = "\n".join(f"{p['title']}\n{p['url']}" for p in props[:50])
+                    upload_text_to_drive(drive, folder_id, f"{today}_リンク一覧.txt", links_text)
+                    print("  [Drive] リンク一覧.txt 保存完了")
+
                 except Exception as e:
                     print(f"  [Drive ERROR] {e}")
             notify_slack(name, url, area, c, drive_link)
