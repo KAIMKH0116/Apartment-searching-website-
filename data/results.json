@@ -1,17 +1,28 @@
 [
   {
+    "name": "三好不動産",
+    "url": "https://www.miyoshi.co.jp/",
+    "selector": "",
+    "area": "福岡市",
+    "note": "地場業者",
+    "changed": true,
+    "change": {
+      "type": "new",
+      "message": "初回登録",
+      "property_count": 76
+    },
+    "drive_link": "https://drive.google.com/drive/folders/1QZAWDAOzy62ctilkw1SACBTtPAIxuwmd",
+    "checked_at": "2026-06-17T09:38:54.698787"
+  },
+  {
     "name": "デザイナーズラボ福岡",
     "url": "https://www.d-labo.co.jp/planning-consultation",
     "selector": "",
     "area": "福岡・北九州",
     "note": "収益物件事業",
-    "changed": true,
-    "change": {
-      "type": "new",
-      "message": "初回登録",
-      "property_count": 26
-    },
-    "drive_link": "https://drive.google.com/drive/folders/1kjc3Qeg54mDAoM0L8N4XOk-X74YsgO8O",
-    "checked_at": "2026-06-17T09:37:16.521313"
+    "changed": false,
+    "change": null,
+    "drive_link": null,
+    "checked_at": "2026-06-17T09:38:59.026305"
   }
 ]
