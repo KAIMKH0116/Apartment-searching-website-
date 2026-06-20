@@ -1,0 +1,58 @@
+name: ✨ タスク・機能追加
+description: 新機能・改善・メンテナンスタスクを起票する
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: 対象プロジェクト
+      options:
+        - 不動産監視システム
+        - SEOランクチェッカー
+        - KPI管理
+        - その他
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: タイプ
+      options:
+        - Feature（新機能）
+        - Refactor（改善）
+        - Maintenance（保守）
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: やりたいこと・背景
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 作業項目（チェックリスト）
+      placeholder: |
+        - [ ] 〇〇を実装
+        - [ ] テスト
+        - [ ] デプロイ
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 優先度
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+  - type: input
+    id: effort
+    attributes:
+      label: 想定作業時間（h）
+  - type: input
+    id: due
+    attributes:
+      label: 期限（YYYY-MM-DD）
