@@ -109,12 +109,12 @@
         "url": "/contact"
       }
     ],
-    "checked_at": "2026-07-30T23:53:51.556154"
+    "checked_at": "2026-07-31T23:54:02.350409"
   },
   "2f989f3395a4fcbf2c70ee5d82a1a3c3": {
     "name": "三好不動産",
     "url": "https://www.miyoshi.co.jp/",
-    "hash": "d4ceab0de4fb8c88c4370dab6ee28ed2d73cc967d31102ff7896ad1b95c4f787",
+    "hash": "5d4b93820fa5a1e1f699f868063c2f071d12ea49e20b9adfe25bea526dbc92d7",
     "properties": [
       {
         "title": "本文へ",
@@ -337,12 +337,8 @@
         "url": "https://www.e-souzok.com/"
       },
       {
-        "title": "賃貸物件の原状回復工事やリノベーションを行うことで賃貸経営のお困りごとをサポート",
-        "url": "https://build-humany.co.jp/"
-      },
-      {
-        "title": "小さな解体から住宅の解体まで解体工事をワンストップに対応",
-        "url": "https://kaitai-one-stop.com/"
+        "title": "1973年創業・福岡市南区を拠点とし不動産賃貸管理を提供",
+        "url": "https://www.matsuzakisanko.co.jp/"
       },
       {
         "title": "事業系不動産仲介のネットワーク事業",
@@ -353,12 +349,32 @@
         "url": "https://plussumjapan.co.jp/"
       },
       {
+        "title": "賃貸物件の原状回復工事やリノベーションを行うことで賃貸経営のお困りごとをサポート",
+        "url": "https://build-humany.co.jp/"
+      },
+      {
+        "title": "小さな解体から住宅の解体まで解体工事をワンストップに対応",
+        "url": "https://kaitai-one-stop.com/"
+      },
+      {
+        "title": "ホテル投資・IT運営代行で不動産目線でオーナー様の収益最大化を支援",
+        "url": "https://nextstay.co.jp/"
+      },
+      {
         "title": "介護・保育事業を始めとしたライフサービスを提供",
         "url": "https://sankolife.co.jp/"
       },
       {
         "title": "福岡の高齢者の方々の賃貸住宅への入居をサポート",
         "url": "https://www.koureichintai.jp/"
+      },
+      {
+        "title": "福岡の学生とともに、地域清掃や災害支援、こども食堂などのボランティア活動を運営／実施",
+        "url": "https://epfukuoka.or.jp/"
+      },
+      {
+        "title": "あらゆる世代が安心して住み続けられるまちづくりをサポート",
+        "url": "https://sanko.or.jp/"
       },
       {
         "title": "三好不動産のCSR",
@@ -421,6 +437,6 @@
         "url": "https://www.facebook.com/miyoshifudosan/"
       }
     ],
-    "checked_at": "2026-07-30T23:53:47.481592"
+    "checked_at": "2026-07-31T23:53:58.315637"
   }
 }
