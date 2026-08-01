@@ -5,20 +5,10 @@
     "selector": "",
     "area": "福岡市",
     "note": "地場業者",
-    "changed": true,
-    "change": {
-      "type": "updated",
-      "message": "変化検知（+4件）",
-      "added_urls": [
-        "https://sanko.or.jp/",
-        "https://www.matsuzakisanko.co.jp/",
-        "https://epfukuoka.or.jp/",
-        "https://nextstay.co.jp/"
-      ],
-      "property_count": 80
-    },
-    "drive_link": "https://drive.google.com/drive/folders/1gDWMWzkw-038E8bKVzabiNJTh-SgoqWm",
-    "checked_at": "2026-07-31T23:53:58.315662"
+    "changed": false,
+    "change": null,
+    "drive_link": null,
+    "checked_at": "2026-08-01T23:48:37.980461"
   },
   {
     "name": "デザイナーズラボ福岡",
@@ -29,6 +19,6 @@
     "changed": false,
     "change": null,
     "drive_link": null,
-    "checked_at": "2026-07-31T23:54:02.350421"
+    "checked_at": "2026-08-01T23:48:42.654671"
   }
 ]
