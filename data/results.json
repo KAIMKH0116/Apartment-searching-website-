@@ -1,5 +1,16 @@
 [
   {
+    "name": "三好不動産",
+    "url": "https://www.miyoshi.co.jp/",
+    "selector": "",
+    "area": "福岡市",
+    "note": "地場業者",
+    "changed": false,
+    "change": null,
+    "drive_link": null,
+    "checked_at": "2026-08-28T06:25:56.499700"
+  },
+  {
     "name": "デザイナーズラボ福岡",
     "url": "https://www.d-labo.co.jp/planning-consultation",
     "selector": "",
@@ -8,6 +19,6 @@
     "changed": false,
     "change": null,
     "drive_link": null,
-    "checked_at": "2026-08-27T04:10:00.802171"
+    "checked_at": "2026-08-28T06:26:00.895977"
   }
 ]
