@@ -5,10 +5,15 @@
     "selector": "",
     "area": "福岡市",
     "note": "地場業者",
-    "changed": false,
-    "change": null,
-    "drive_link": null,
-    "checked_at": "2026-09-01T01:30:54.246584"
+    "changed": true,
+    "change": {
+      "type": "updated",
+      "message": "変化検知（+0件）",
+      "added_urls": [],
+      "property_count": 80
+    },
+    "drive_link": "https://drive.google.com/drive/folders/1ROD50J4yR88uP-cf8w_dJA3fx8EYybOO",
+    "checked_at": "2026-09-02T00:40:38.481259"
   },
   {
     "name": "デザイナーズラボ福岡",
@@ -19,6 +24,6 @@
     "changed": false,
     "change": null,
     "drive_link": null,
-    "checked_at": "2026-09-01T01:30:58.519174"
+    "checked_at": "2026-09-02T00:40:43.174329"
   }
 ]
