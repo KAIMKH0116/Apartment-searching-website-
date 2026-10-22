@@ -5,10 +5,17 @@
     "selector": "",
     "area": "福岡市",
     "note": "地場業者",
-    "changed": false,
-    "change": null,
-    "drive_link": null,
-    "checked_at": "2026-10-21T01:08:11.865270"
+    "changed": true,
+    "change": {
+      "type": "updated",
+      "message": "変化検知（+1件）",
+      "added_urls": [
+        "https://www.agri-wish.co.jp/"
+      ],
+      "property_count": 81
+    },
+    "drive_link": "https://drive.google.com/drive/folders/1Pvdah0w66uA16XV4P4ePHxOAExgZCiIb",
+    "checked_at": "2026-10-22T01:05:22.809811"
   },
   {
     "name": "デザイナーズラボ福岡",
@@ -19,6 +26,6 @@
     "changed": false,
     "change": null,
     "drive_link": null,
-    "checked_at": "2026-10-21T01:08:16.172898"
+    "checked_at": "2026-10-22T01:05:27.120665"
   }
 ]

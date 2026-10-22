@@ -109,12 +109,12 @@
         "url": "/contact"
       }
     ],
-    "checked_at": "2026-10-21T01:08:16.172880"
+    "checked_at": "2026-10-22T01:05:27.120649"
   },
   "2f989f3395a4fcbf2c70ee5d82a1a3c3": {
     "name": "三好不動産",
     "url": "https://www.miyoshi.co.jp/",
-    "hash": "edad494aa8915daf6e60539d92b06d6ad45e8bee28c1c3e7613aa6e24ce9e679",
+    "hash": "aee9a5e5234467c5b9dde8cc9a41f09ac952f5e3a1045c50d09cd954f2499e40",
     "properties": [
       {
         "title": "本文へ",
@@ -377,6 +377,10 @@
         "url": "https://sanko.or.jp/"
       },
       {
+        "title": "農地の賃貸・売買をサポート",
+        "url": "https://www.agri-wish.co.jp/"
+      },
+      {
         "title": "三好不動産のCSR",
         "url": "/brand/csr/"
       },
@@ -437,6 +441,6 @@
         "url": "https://www.facebook.com/miyoshifudosan/"
       }
     ],
-    "checked_at": "2026-10-21T01:08:11.865247"
+    "checked_at": "2026-10-22T01:05:22.809786"
   }
 }
